@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CB135181E14DD4700268EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB135171E14DD4700268EDB /* AppDelegate.swift */; };
+		6CB1351A1E14DD4700268EDB /* DrumPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB135191E14DD4700268EDB /* DrumPadViewController.swift */; };
+		6CB1351D1E14DD4700268EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1351B1E14DD4700268EDB /* Main.storyboard */; };
+		6CB1351F1E14DD4700268EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1351E1E14DD4700268EDB /* Assets.xcassets */; };
+		6CB135221E14DD4700268EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135201E14DD4700268EDB /* LaunchScreen.storyboard */; };
+		6CB1352A1E14E35F00268EDB /* Drummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB135291E14E35F00268EDB /* Drummer.swift */; };
+		6CB135331E14EB6B00268EDB /* drum0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352C1E14EB6B00268EDB /* drum0.wav */; };
+		6CB135341E14EB6B00268EDB /* drum5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352D1E14EB6B00268EDB /* drum5.wav */; };
+		6CB135351E14EB6B00268EDB /* drum3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352E1E14EB6B00268EDB /* drum3.wav */; };
+		6CB135361E14EB6B00268EDB /* drum4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352F1E14EB6B00268EDB /* drum4.wav */; };
+		6CB135371E14EB6B00268EDB /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135301E14EB6B00268EDB /* kick.wav */; };
+		6CB135381E14EB6B00268EDB /* drum2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135311E14EB6B00268EDB /* drum2.wav */; };
+		6CB135391E14EB6B00268EDB /* drum1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135321E14EB6B00268EDB /* drum1.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CB135141E14DD4700268EDB /* Drummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB135171E14DD4700268EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CB135191E14DD4700268EDB /* DrumPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPadViewController.swift; sourceTree = "<group>"; };
+		6CB1351C1E14DD4700268EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CB1351E1E14DD4700268EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CB135211E14DD4700268EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CB135231E14DD4700268EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB135291E14E35F00268EDB /* Drummer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drummer.swift; sourceTree = "<group>"; };
+		6CB1352C1E14EB6B00268EDB /* drum0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum0.wav; path = "Audio Files/drum0.wav"; sourceTree = "<group>"; };
+		6CB1352D1E14EB6B00268EDB /* drum5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum5.wav; path = "Audio Files/drum5.wav"; sourceTree = "<group>"; };
+		6CB1352E1E14EB6B00268EDB /* drum3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum3.wav; path = "Audio Files/drum3.wav"; sourceTree = "<group>"; };
+		6CB1352F1E14EB6B00268EDB /* drum4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum4.wav; path = "Audio Files/drum4.wav"; sourceTree = "<group>"; };
+		6CB135301E14EB6B00268EDB /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick.wav; path = "Audio Files/kick.wav"; sourceTree = "<group>"; };
+		6CB135311E14EB6B00268EDB /* drum2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum2.wav; path = "Audio Files/drum2.wav"; sourceTree = "<group>"; };
+		6CB135321E14EB6B00268EDB /* drum1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum1.wav; path = "Audio Files/drum1.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB135111E14DD4700268EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB1350B1E14DD4700268EDB = {
+			isa = PBXGroup;
+			children = (
+				6CB135161E14DD4700268EDB /* Drummer */,
+				6CB135151E14DD4700268EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB135151E14DD4700268EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB135141E14DD4700268EDB /* Drummer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB135161E14DD4700268EDB /* Drummer */ = {
+			isa = PBXGroup;
+			children = (
+				6CB135171E14DD4700268EDB /* AppDelegate.swift */,
+				6CB1351B1E14DD4700268EDB /* Main.storyboard */,
+				6CB135191E14DD4700268EDB /* DrumPadViewController.swift */,
+				6CB135291E14E35F00268EDB /* Drummer.swift */,
+				6CB1351E1E14DD4700268EDB /* Assets.xcassets */,
+				6CB135201E14DD4700268EDB /* LaunchScreen.storyboard */,
+				6CB135231E14DD4700268EDB /* Info.plist */,
+				6CB1352B1E14EB5500268EDB /* Audio Files */,
+			);
+			path = Drummer;
+			sourceTree = "<group>";
+		};
+		6CB1352B1E14EB5500268EDB /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1352C1E14EB6B00268EDB /* drum0.wav */,
+				6CB135321E14EB6B00268EDB /* drum1.wav */,
+				6CB135311E14EB6B00268EDB /* drum2.wav */,
+				6CB1352E1E14EB6B00268EDB /* drum3.wav */,
+				6CB1352F1E14EB6B00268EDB /* drum4.wav */,
+				6CB1352D1E14EB6B00268EDB /* drum5.wav */,
+				6CB135301E14EB6B00268EDB /* kick.wav */,
+			);
+			name = "Audio Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB135131E14DD4700268EDB /* Drummer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB135261E14DD4700268EDB /* Build configuration list for PBXNativeTarget "Drummer" */;
+			buildPhases = (
+				6CB135101E14DD4700268EDB /* Sources */,
+				6CB135111E14DD4700268EDB /* Frameworks */,
+				6CB135121E14DD4700268EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drummer;
+			productName = Drummer;
+			productReference = 6CB135141E14DD4700268EDB /* Drummer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB1350C1E14DD4700268EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Paige Plander";
+				TargetAttributes = {
+					6CB135131E14DD4700268EDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6CB1350F1E14DD4700268EDB /* Build configuration list for PBXProject "Drummer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CB1350B1E14DD4700268EDB;
+			productRefGroup = 6CB135151E14DD4700268EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB135131E14DD4700268EDB /* Drummer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB135121E14DD4700268EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB135391E14EB6B00268EDB /* drum1.wav in Resources */,
+				6CB135221E14DD4700268EDB /* LaunchScreen.storyboard in Resources */,
+				6CB135331E14EB6B00268EDB /* drum0.wav in Resources */,
+				6CB135341E14EB6B00268EDB /* drum5.wav in Resources */,
+				6CB1351F1E14DD4700268EDB /* Assets.xcassets in Resources */,
+				6CB135351E14EB6B00268EDB /* drum3.wav in Resources */,
+				6CB135361E14EB6B00268EDB /* drum4.wav in Resources */,
+				6CB135371E14EB6B00268EDB /* kick.wav in Resources */,
+				6CB135381E14EB6B00268EDB /* drum2.wav in Resources */,
+				6CB1351D1E14DD4700268EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB135101E14DD4700268EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB1352A1E14E35F00268EDB /* Drummer.swift in Sources */,
+				6CB1351A1E14DD4700268EDB /* DrumPadViewController.swift in Sources */,
+				6CB135181E14DD4700268EDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CB1351B1E14DD4700268EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB1351C1E14DD4700268EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CB135201E14DD4700268EDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB135211E14DD4700268EDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB135241E14DD4700268EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CB135251E14DD4700268EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB135271E14DD4700268EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drummer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paigeplan.Drummer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6CB135281E14DD4700268EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drummer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paigeplan.Drummer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB1350F1E14DD4700268EDB /* Build configuration list for PBXProject "Drummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB135241E14DD4700268EDB /* Debug */,
+				6CB135251E14DD4700268EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB135261E14DD4700268EDB /* Build configuration list for PBXNativeTarget "Drummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB135271E14DD4700268EDB /* Debug */,
+				6CB135281E14DD4700268EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB1350C1E14DD4700268EDB /* Project object */;
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Drum Pad View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DrumPadViewController" customModule="Drummer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2e-4i-zxK">
+                                <rect key="frame" x="16" y="28" width="104.5" height="198"/>
+                                <color key="backgroundColor" red="0.63280920774472271" green="0.91130714779972744" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 1 (top left corner)" label="drum1"/>
+                                <color key="tintColor" red="0.0" green="0.15156431479999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="button1"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uqU-ox-upj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRo-gm-aqM">
+                                <rect key="frame" x="135.5" y="28" width="104" height="198"/>
+                                <color key="backgroundColor" red="0.63280920774472271" green="0.91130714779972744" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 2" label="drum2"/>
+                                <color key="tintColor" red="0.0" green="0.15156431479999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="button1"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ct-jB-dMt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2e-AX-8SP">
+                                <rect key="frame" x="254.5" y="28" width="104.5" height="198"/>
+                                <color key="backgroundColor" red="0.63280920774472271" green="0.91130714779972744" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 3 (top right)" label="drum3"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="button1"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Pm-gD-fvr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4L-Re-V9g">
+                                <rect key="frame" x="16" y="241" width="104.5" height="198"/>
+                                <color key="backgroundColor" red="0.74468424706614034" green="1" blue="0.91921813978800393" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 4 (middle left)" label="drum4"/>
+                                <color key="tintColor" red="0.61075463683790687" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="button3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zxZ-Xo-Lt3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJf-NM-rQq">
+                                <rect key="frame" x="135.5" y="241" width="104" height="198"/>
+                                <color key="backgroundColor" red="0.74468424706614034" green="1" blue="0.91921813978800393" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 5" label="drum5"/>
+                                <color key="tintColor" red="1" green="0.57941995394294643" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="button3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yy6-qv-M1y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-Ac-rS7">
+                                <rect key="frame" x="254.5" y="241" width="104.5" height="198"/>
+                                <color key="backgroundColor" red="0.74468424706614034" green="1" blue="0.91921813978800393" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 6 (middle right)" label="drum 6"/>
+                                <color key="tintColor" red="1" green="0.055564177690000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="button3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Chg-Xa-fea"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unp-Yc-bmB">
+                                <rect key="frame" x="16" y="454" width="343" height="198"/>
+                                <color key="backgroundColor" red="0.46915927140000002" green="0.45113267959999998" blue="1" alpha="0.80825293620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays sound for the snare drum" label="snare"/>
+                                <color key="tintColor" red="0.0056690549099999996" green="1" blue="0.275841371" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" backgroundImage="button2">
+                                    <color key="titleShadowColor" red="0.74468424710000003" green="1" blue="0.9192181398" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xlf-kc-aKP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.015163754239388507" green="0.27581040641789889" blue="0.35630859375000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="E2e-AX-8SP" secondAttribute="trailing" id="0N4-kM-K0X"/>
+                            <constraint firstItem="E2e-AX-8SP" firstAttribute="width" secondItem="v2e-4i-zxK" secondAttribute="width" id="12J-pH-0xV"/>
+                            <constraint firstItem="VRo-gm-aqM" firstAttribute="leading" secondItem="v2e-4i-zxK" secondAttribute="trailing" constant="15" id="39c-CW-EIa"/>
+                            <constraint firstItem="dJf-NM-rQq" firstAttribute="centerX" secondItem="VRo-gm-aqM" secondAttribute="centerX" id="3kS-cR-Z8Y"/>
+                            <constraint firstItem="NTM-Ac-rS7" firstAttribute="width" secondItem="v2e-4i-zxK" secondAttribute="width" id="4bN-pH-Soz"/>
+                            <constraint firstItem="NTM-Ac-rS7" firstAttribute="centerX" secondItem="E2e-AX-8SP" secondAttribute="centerX" id="9xF-Mr-dhs"/>
+                            <constraint firstItem="e4L-Re-V9g" firstAttribute="top" secondItem="v2e-4i-zxK" secondAttribute="bottom" constant="15" id="Bhn-Iq-aW7"/>
+                            <constraint firstItem="VRo-gm-aqM" firstAttribute="width" secondItem="v2e-4i-zxK" secondAttribute="width" id="CNB-AT-osR"/>
+                            <constraint firstItem="NTM-Ac-rS7" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="Cxy-Ay-eBE"/>
+                            <constraint firstItem="e4L-Re-V9g" firstAttribute="centerX" secondItem="v2e-4i-zxK" secondAttribute="centerX" id="FKv-s3-XPE"/>
+                            <constraint firstItem="NTM-Ac-rS7" firstAttribute="centerY" secondItem="dJf-NM-rQq" secondAttribute="centerY" id="FPx-C1-Y3x"/>
+                            <constraint firstItem="unp-Yc-bmB" firstAttribute="trailing" secondItem="E2e-AX-8SP" secondAttribute="trailing" id="G80-sz-cYd"/>
+                            <constraint firstItem="dJf-NM-rQq" firstAttribute="width" secondItem="v2e-4i-zxK" secondAttribute="width" id="Kly-Yd-xfc"/>
+                            <constraint firstItem="e4L-Re-V9g" firstAttribute="width" secondItem="v2e-4i-zxK" secondAttribute="width" id="KyC-YT-2Tf"/>
+                            <constraint firstItem="dJf-NM-rQq" firstAttribute="top" secondItem="VRo-gm-aqM" secondAttribute="bottom" constant="15" id="Lq4-va-YK6"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="v2e-4i-zxK" secondAttribute="leading" id="LvR-6c-bA7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unp-Yc-bmB" secondAttribute="bottom" constant="15" id="Rku-6O-vDC"/>
+                            <constraint firstItem="VRo-gm-aqM" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="UNp-lr-YF3"/>
+                            <constraint firstItem="unp-Yc-bmB" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="Uy0-rI-1bl"/>
+                            <constraint firstItem="E2e-AX-8SP" firstAttribute="leading" secondItem="VRo-gm-aqM" secondAttribute="trailing" constant="15" id="X7D-9B-T4l"/>
+                            <constraint firstItem="E2e-AX-8SP" firstAttribute="centerY" secondItem="VRo-gm-aqM" secondAttribute="centerY" id="YdN-9H-FeX"/>
+                            <constraint firstItem="dJf-NM-rQq" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="Z97-VU-fnx"/>
+                            <constraint firstItem="unp-Yc-bmB" firstAttribute="leading" secondItem="v2e-4i-zxK" secondAttribute="leading" id="bVu-zY-Z9D"/>
+                            <constraint firstItem="v2e-4i-zxK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="eqU-qq-bAL"/>
+                            <constraint firstItem="E2e-AX-8SP" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="oQm-c0-gt0"/>
+                            <constraint firstItem="e4L-Re-V9g" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="ocM-ld-EaB"/>
+                            <constraint firstItem="dJf-NM-rQq" firstAttribute="centerY" secondItem="e4L-Re-V9g" secondAttribute="centerY" id="xPY-IJ-8CM"/>
+                            <constraint firstItem="unp-Yc-bmB" firstAttribute="top" secondItem="dJf-NM-rQq" secondAttribute="bottom" constant="15" id="xTR-fz-Br1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button1" width="606" height="586"/>
+        <image name="button2" width="606" height="586"/>
+        <image name="button3" width="606" height="586"/>
+    </resources>
+</document>

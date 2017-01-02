@@ -7,42 +7,52 @@
 //
 
 import Foundation
-import AVFoundation
 
 class Drummer {
     
-    /// Filenames for the available drums
-    let audioFileNames = ["drum0.wav", "drum1.wav", "drum2.wav", "drum3.wav", "drum4.wav", "drum5.wav", "kick.wav"]
+    /// The ID number to indicate which drum kit the user is playing (default 0)
+    private var drumKitID = 0
     
-    /// AVPlayers for each of the available drums
-    var audioPlayers = [AVAudioPlayer?]()
+    /// Filenames for the available drum sounds for drum kit 0
+    private let drumKit0AudioFileNames = ["drumkit0-0.wav", "drumkit0-1.wav", "drumkit0-2.wav", "drumkit0-3.wav", "drumkit0-4.wav", "drumkit0-5.wav", "drumkit0-kick.wav"]
     
-    init() {
-        for filename in audioFileNames {
-            if let audioURL = Bundle.main.url(forResource: filename, withExtension: nil) {
-                do {
-                    let audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
-                    audioPlayer.prepareToPlay()
-                    audioPlayers.append(audioPlayer)
-                }
-                catch {
-                    print(error)
-                }
-                
-            }
-            else {
-                audioPlayers.append(nil)
-                print("Error creating a audio player from the file \(filename)")
-            }
-        }
-    }
-    
+    /// Filenames for the available drum sounds for drum kit 1
+    private let drumKit1AudioFileNames = ["drumkit1-0.wav", "drumkit1-1.wav", "drumkit1-2.wav", "drumkit1-3.wav", "drumkit1-4.wav", "drumkit1-5.wav", "drumkit1-kick.wav"]
+
     /// Plays the audio file for drum associated with the given tag
     ///
     /// - Parameter tag: The tag of the drum button pressed
     func playDrumSound(forDrumWithTag tag: Int) {
-        if let audioPlayer = audioPlayers[tag] {
-            audioPlayer.play()
+        switch drumKitID {
+            case 0:
+                SystemSoundID.playSound(withFilename: drumKit0AudioFileNames[tag])
+            case 1:
+                SystemSoundID.playSound(withFilename: drumKit1AudioFileNames[tag])
+            default:
+                print("Error - drum kit \(drumKitID) does not exist.")
+            }
+    }
+    
+    /// Setter for the drumKitID variable, which indicates which drum set
+    /// is currently in use (different drum kits have different sound files)
+    ///
+    /// - Parameter id: the id of the drum kit that the user is switching to
+    func setDrumKitID(toValue id: Int) {
+        drumKitID = id
+    }
+}
+
+
+/// Framework used for sound playback (you can ignore the extension for this lab)
+import AudioToolbox
+
+extension SystemSoundID {
+    static func playSound(withFilename filename: String) {
+        var sound: SystemSoundID = 0
+        if let soundURL = Bundle.main.url(forResource: filename, withExtension: nil) {
+            AudioServicesCreateSystemSoundID(soundURL as CFURL, &sound)
+            AudioServicesPlaySystemSound(sound)
         }
     }
 }
+

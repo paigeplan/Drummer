@@ -28,5 +28,9 @@ class DrumPadViewController: UIViewController {
     @IBAction func didTapDrumButton(_ sender: UIButton) {
         drummer.playDrumSound(forDrumWithTag: sender.tag)
     }
+    
+    @IBAction func segmentedControlDidChange(_ sender: UISegmentedControl) {
+        drummer.setDrumKitID(toValue: sender.selectedSegmentIndex)
+    }
 }
 

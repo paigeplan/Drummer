@@ -13,13 +13,20 @@
 		6CB1351F1E14DD4700268EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1351E1E14DD4700268EDB /* Assets.xcassets */; };
 		6CB135221E14DD4700268EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135201E14DD4700268EDB /* LaunchScreen.storyboard */; };
 		6CB1352A1E14E35F00268EDB /* Drummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB135291E14E35F00268EDB /* Drummer.swift */; };
-		6CB135331E14EB6B00268EDB /* drum0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352C1E14EB6B00268EDB /* drum0.wav */; };
-		6CB135341E14EB6B00268EDB /* drum5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352D1E14EB6B00268EDB /* drum5.wav */; };
-		6CB135351E14EB6B00268EDB /* drum3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352E1E14EB6B00268EDB /* drum3.wav */; };
-		6CB135361E14EB6B00268EDB /* drum4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352F1E14EB6B00268EDB /* drum4.wav */; };
-		6CB135371E14EB6B00268EDB /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135301E14EB6B00268EDB /* kick.wav */; };
-		6CB135381E14EB6B00268EDB /* drum2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135311E14EB6B00268EDB /* drum2.wav */; };
-		6CB135391E14EB6B00268EDB /* drum1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135321E14EB6B00268EDB /* drum1.wav */; };
+		6CB135331E14EB6B00268EDB /* drumkit1-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352C1E14EB6B00268EDB /* drumkit1-0.wav */; };
+		6CB135341E14EB6B00268EDB /* drumkit1-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352D1E14EB6B00268EDB /* drumkit1-5.wav */; };
+		6CB135351E14EB6B00268EDB /* drumkit1-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352E1E14EB6B00268EDB /* drumkit1-3.wav */; };
+		6CB135361E14EB6B00268EDB /* drumkit1-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1352F1E14EB6B00268EDB /* drumkit1-4.wav */; };
+		6CB135371E14EB6B00268EDB /* drumkit1-kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135301E14EB6B00268EDB /* drumkit1-kick.wav */; };
+		6CB135381E14EB6B00268EDB /* drumkit1-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135311E14EB6B00268EDB /* drumkit1-2.wav */; };
+		6CB135391E14EB6B00268EDB /* drumkit1-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CB135321E14EB6B00268EDB /* drumkit1-1.wav */; };
+		6CF122FD1E1A114E0073802A /* drumkit0-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF122F61E1A114E0073802A /* drumkit0-0.wav */; };
+		6CF122FE1E1A114E0073802A /* drumkit0-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF122F71E1A114E0073802A /* drumkit0-1.wav */; };
+		6CF122FF1E1A114E0073802A /* drumkit0-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF122F81E1A114E0073802A /* drumkit0-2.wav */; };
+		6CF123001E1A114E0073802A /* drumkit0-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF122F91E1A114E0073802A /* drumkit0-3.wav */; };
+		6CF123011E1A114E0073802A /* drumkit0-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF122FA1E1A114E0073802A /* drumkit0-4.wav */; };
+		6CF123021E1A114E0073802A /* drumkit0-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF122FB1E1A114E0073802A /* drumkit0-5.wav */; };
+		6CF123031E1A114E0073802A /* drumkit0-kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF122FC1E1A114E0073802A /* drumkit0-kick.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +38,20 @@
 		6CB135211E14DD4700268EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CB135231E14DD4700268EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CB135291E14E35F00268EDB /* Drummer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drummer.swift; sourceTree = "<group>"; };
-		6CB1352C1E14EB6B00268EDB /* drum0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum0.wav; path = "Audio Files/drum0.wav"; sourceTree = "<group>"; };
-		6CB1352D1E14EB6B00268EDB /* drum5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum5.wav; path = "Audio Files/drum5.wav"; sourceTree = "<group>"; };
-		6CB1352E1E14EB6B00268EDB /* drum3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum3.wav; path = "Audio Files/drum3.wav"; sourceTree = "<group>"; };
-		6CB1352F1E14EB6B00268EDB /* drum4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum4.wav; path = "Audio Files/drum4.wav"; sourceTree = "<group>"; };
-		6CB135301E14EB6B00268EDB /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick.wav; path = "Audio Files/kick.wav"; sourceTree = "<group>"; };
-		6CB135311E14EB6B00268EDB /* drum2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum2.wav; path = "Audio Files/drum2.wav"; sourceTree = "<group>"; };
-		6CB135321E14EB6B00268EDB /* drum1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum1.wav; path = "Audio Files/drum1.wav"; sourceTree = "<group>"; };
+		6CB1352C1E14EB6B00268EDB /* drumkit1-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit1-0.wav"; path = "Audio Files/drumkit1-0.wav"; sourceTree = "<group>"; };
+		6CB1352D1E14EB6B00268EDB /* drumkit1-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit1-5.wav"; path = "Audio Files/drumkit1-5.wav"; sourceTree = "<group>"; };
+		6CB1352E1E14EB6B00268EDB /* drumkit1-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit1-3.wav"; path = "Audio Files/drumkit1-3.wav"; sourceTree = "<group>"; };
+		6CB1352F1E14EB6B00268EDB /* drumkit1-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit1-4.wav"; path = "Audio Files/drumkit1-4.wav"; sourceTree = "<group>"; };
+		6CB135301E14EB6B00268EDB /* drumkit1-kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit1-kick.wav"; path = "Audio Files/drumkit1-kick.wav"; sourceTree = "<group>"; };
+		6CB135311E14EB6B00268EDB /* drumkit1-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit1-2.wav"; path = "Audio Files/drumkit1-2.wav"; sourceTree = "<group>"; };
+		6CB135321E14EB6B00268EDB /* drumkit1-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit1-1.wav"; path = "Audio Files/drumkit1-1.wav"; sourceTree = "<group>"; };
+		6CF122F61E1A114E0073802A /* drumkit0-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit0-0.wav"; path = "Audio Files/drumkit0-0.wav"; sourceTree = "<group>"; };
+		6CF122F71E1A114E0073802A /* drumkit0-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit0-1.wav"; path = "Audio Files/drumkit0-1.wav"; sourceTree = "<group>"; };
+		6CF122F81E1A114E0073802A /* drumkit0-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit0-2.wav"; path = "Audio Files/drumkit0-2.wav"; sourceTree = "<group>"; };
+		6CF122F91E1A114E0073802A /* drumkit0-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit0-3.wav"; path = "Audio Files/drumkit0-3.wav"; sourceTree = "<group>"; };
+		6CF122FA1E1A114E0073802A /* drumkit0-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit0-4.wav"; path = "Audio Files/drumkit0-4.wav"; sourceTree = "<group>"; };
+		6CF122FB1E1A114E0073802A /* drumkit0-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit0-5.wav"; path = "Audio Files/drumkit0-5.wav"; sourceTree = "<group>"; };
+		6CF122FC1E1A114E0073802A /* drumkit0-kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drumkit0-kick.wav"; path = "Audio Files/drumkit0-kick.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C6D969A1E14F9FB00899D0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CB135291E14E35F00268EDB /* Drummer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6C6D969B1E14FA0700899D0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CB135191E14DD4700268EDB /* DrumPadViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6C6D969C1E14FA2200899D0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CB135201E14DD4700268EDB /* LaunchScreen.storyboard */,
+				6CB1351E1E14DD4700268EDB /* Assets.xcassets */,
+				6CB1351B1E14DD4700268EDB /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6C6D969D1E14FA4400899D0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1352B1E14EB5500268EDB /* Audio Files */,
+				6CB135231E14DD4700268EDB /* Info.plist */,
+				6CB135171E14DD4700268EDB /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6CB1350B1E14DD4700268EDB = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +120,10 @@
 		6CB135161E14DD4700268EDB /* Drummer */ = {
 			isa = PBXGroup;
 			children = (
-				6CB135171E14DD4700268EDB /* AppDelegate.swift */,
-				6CB1351B1E14DD4700268EDB /* Main.storyboard */,
-				6CB135191E14DD4700268EDB /* DrumPadViewController.swift */,
-				6CB135291E14E35F00268EDB /* Drummer.swift */,
-				6CB1351E1E14DD4700268EDB /* Assets.xcassets */,
-				6CB135201E14DD4700268EDB /* LaunchScreen.storyboard */,
-				6CB135231E14DD4700268EDB /* Info.plist */,
-				6CB1352B1E14EB5500268EDB /* Audio Files */,
+				6C6D969A1E14F9FB00899D0F /* Model */,
+				6C6D969C1E14FA2200899D0F /* View */,
+				6C6D969B1E14FA0700899D0F /* Controller */,
+				6C6D969D1E14FA4400899D0F /* Supporting Files */,
 			);
 			path = Drummer;
 			sourceTree = "<group>";
@@ -85,15 +131,38 @@
 		6CB1352B1E14EB5500268EDB /* Audio Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CB1352C1E14EB6B00268EDB /* drum0.wav */,
-				6CB135321E14EB6B00268EDB /* drum1.wav */,
-				6CB135311E14EB6B00268EDB /* drum2.wav */,
-				6CB1352E1E14EB6B00268EDB /* drum3.wav */,
-				6CB1352F1E14EB6B00268EDB /* drum4.wav */,
-				6CB1352D1E14EB6B00268EDB /* drum5.wav */,
-				6CB135301E14EB6B00268EDB /* kick.wav */,
+				6CF123041E1A11560073802A /* drum kit 0  */,
+				6CF122F51E1A10AB0073802A /* drum kit 1 */,
 			);
 			name = "Audio Files";
+			sourceTree = "<group>";
+		};
+		6CF122F51E1A10AB0073802A /* drum kit 1 */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1352C1E14EB6B00268EDB /* drumkit1-0.wav */,
+				6CB135321E14EB6B00268EDB /* drumkit1-1.wav */,
+				6CB135311E14EB6B00268EDB /* drumkit1-2.wav */,
+				6CB1352E1E14EB6B00268EDB /* drumkit1-3.wav */,
+				6CB1352F1E14EB6B00268EDB /* drumkit1-4.wav */,
+				6CB1352D1E14EB6B00268EDB /* drumkit1-5.wav */,
+				6CB135301E14EB6B00268EDB /* drumkit1-kick.wav */,
+			);
+			name = "drum kit 1";
+			sourceTree = "<group>";
+		};
+		6CF123041E1A11560073802A /* drum kit 0  */ = {
+			isa = PBXGroup;
+			children = (
+				6CF122F61E1A114E0073802A /* drumkit0-0.wav */,
+				6CF122F71E1A114E0073802A /* drumkit0-1.wav */,
+				6CF122F81E1A114E0073802A /* drumkit0-2.wav */,
+				6CF122F91E1A114E0073802A /* drumkit0-3.wav */,
+				6CF122FA1E1A114E0073802A /* drumkit0-4.wav */,
+				6CF122FB1E1A114E0073802A /* drumkit0-5.wav */,
+				6CF122FC1E1A114E0073802A /* drumkit0-kick.wav */,
+			);
+			name = "drum kit 0 ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +197,7 @@
 				TargetAttributes = {
 					6CB135131E14DD4700268EDB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HM36DDY9LB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,15 +225,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CB135391E14EB6B00268EDB /* drum1.wav in Resources */,
+				6CB135391E14EB6B00268EDB /* drumkit1-1.wav in Resources */,
 				6CB135221E14DD4700268EDB /* LaunchScreen.storyboard in Resources */,
-				6CB135331E14EB6B00268EDB /* drum0.wav in Resources */,
-				6CB135341E14EB6B00268EDB /* drum5.wav in Resources */,
+				6CB135331E14EB6B00268EDB /* drumkit1-0.wav in Resources */,
+				6CB135341E14EB6B00268EDB /* drumkit1-5.wav in Resources */,
+				6CF122FE1E1A114E0073802A /* drumkit0-1.wav in Resources */,
+				6CF122FD1E1A114E0073802A /* drumkit0-0.wav in Resources */,
 				6CB1351F1E14DD4700268EDB /* Assets.xcassets in Resources */,
-				6CB135351E14EB6B00268EDB /* drum3.wav in Resources */,
-				6CB135361E14EB6B00268EDB /* drum4.wav in Resources */,
-				6CB135371E14EB6B00268EDB /* kick.wav in Resources */,
-				6CB135381E14EB6B00268EDB /* drum2.wav in Resources */,
+				6CB135351E14EB6B00268EDB /* drumkit1-3.wav in Resources */,
+				6CB135361E14EB6B00268EDB /* drumkit1-4.wav in Resources */,
+				6CF122FF1E1A114E0073802A /* drumkit0-2.wav in Resources */,
+				6CF123011E1A114E0073802A /* drumkit0-4.wav in Resources */,
+				6CF123001E1A114E0073802A /* drumkit0-3.wav in Resources */,
+				6CF123021E1A114E0073802A /* drumkit0-5.wav in Resources */,
+				6CB135371E14EB6B00268EDB /* drumkit1-kick.wav in Resources */,
+				6CF123031E1A114E0073802A /* drumkit0-kick.wav in Resources */,
+				6CB135381E14EB6B00268EDB /* drumkit1-2.wav in Resources */,
 				6CB1351D1E14DD4700268EDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HM36DDY9LB;
 				INFOPLIST_FILE = Drummer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = paigeplan.Drummer;
@@ -312,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HM36DDY9LB;
 				INFOPLIST_FILE = Drummer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = paigeplan.Drummer;
@@ -339,6 +418,7 @@
 				6CB135281E14DD4700268EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

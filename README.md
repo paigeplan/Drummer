@@ -3,7 +3,7 @@
 In today's lab, we'll be creating a responsive UI for a simple drum pad app using AutoLayout. 
 
 To get started, first clone this repository onto your own computer
-    `git clone https://github.com/iosdecal/ios-decal-lab2`
+`git clone https://github.com/iosdecal/ios-decal-lab2`
 
 Open the file `ios-decal-lab2.xcodeproj` to start the lab.
 
@@ -12,10 +12,10 @@ Once you have opened the project in Xcode, notice the files present in the Navig
 
 ### Files we have provided ###
 We have provided the following files for you to use. 
-1. **Drummer.swift** in the **Model** folder - this file contains the "brains" of our app, including the filenames for the audio files that we'll be using, as well as a method for playing these audio files.
-2. **Main.storyboard** in the **View** folder - this is where you will be creating your UI elements (buttons, labels, etc) and AutoLayout Constraints. This file is automattically created for you each time you create an app.
-3. **Assets.xcassets** in the **View** folder - contains all of the images used in the app (we have only included app icon images, but if you'd like to add your own images to customize the app, add them here). This is another file that is automatically created for you each time you create a new app.
-4. **Supporting Files** - contains all the audio clips we'll be using, as well as some other files we won't be using in today's lab (Ask a lab assistant if you want to learn about them!)
+1. Drummer.swift in the **Model** folder - this file contains the "brains" of our app, including the filenames for the audio files that we'll be using, as well as a method for playing these audio files.
+2. Main.storyboard in the **View** folder - this is where you will be creating your UI elements (buttons, labels, etc) and AutoLayout Constraints. This file is automattically created for you each time you create an app.
+3. Assets.xcassets in the **View** folder - contains all of the images used in the app (we have only included app icon images, but if you'd like to add your own images to customize the app, add them here). This is another file that is automatically created for you each time you create a new app.
+4. Supporting Files - contains all the audio clips we'll be using, as well as some other files we won't be using in today's lab (Ask a lab assistant if you want to learn about them!)
 
 ** Note, we have not created any View Controllers (this will be your job later in the lab)
 

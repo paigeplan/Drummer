@@ -22,12 +22,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2e-4i-zxK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2e-4i-zxK">
                                 <rect key="frame" x="16" y="40" width="109" height="184.5"/>
-                                <color key="backgroundColor" red="0.63280920774472271" green="0.91130714779972744" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 1 (top left corner)" label="drum1"/>
-                                <color key="tintColor" red="0.0" green="0.15156431479999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="button1"/>
+                                <state key="normal" backgroundImage="button4"/>
+                                <state key="selected" backgroundImage="button4"/>
+                                <state key="highlighted" backgroundImage="button3"/>
+                                <state key="focused" backgroundImage="button3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -38,12 +39,13 @@
                                     <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uqU-ox-upj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRo-gm-aqM">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRo-gm-aqM">
                                 <rect key="frame" x="133" y="40" width="109" height="184.5"/>
-                                <color key="backgroundColor" red="0.63280920774472271" green="0.91130714779972744" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 2" label="drum2"/>
-                                <color key="tintColor" red="0.0" green="0.15156431479999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="button1"/>
+                                <state key="selected" backgroundImage="button3"/>
+                                <state key="highlighted" backgroundImage="button3"/>
+                                <state key="focused" backgroundImage="button3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -54,12 +56,13 @@
                                     <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ct-jB-dMt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2e-AX-8SP">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2e-AX-8SP">
                                 <rect key="frame" x="250" y="40" width="109" height="184.5"/>
-                                <color key="backgroundColor" red="0.63280920774472271" green="0.91130714779972744" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 3 (top right)" label="drum3"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="button1"/>
+                                <state key="normal" backgroundImage="button2"/>
+                                <state key="selected" backgroundImage="button3"/>
+                                <state key="highlighted" backgroundImage="button3"/>
+                                <state key="focused" backgroundImage="button3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -70,12 +73,13 @@
                                     <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Pm-gD-fvr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4L-Re-V9g">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4L-Re-V9g">
                                 <rect key="frame" x="16" y="232.5" width="109" height="185"/>
-                                <color key="backgroundColor" red="0.74468424706614034" green="1" blue="0.91921813978800393" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 4 (middle left)" label="drum4"/>
-                                <color key="tintColor" red="0.61075463683790687" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="button3"/>
+                                <state key="normal" backgroundImage="button2"/>
+                                <state key="selected" backgroundImage="button3"/>
+                                <state key="highlighted" backgroundImage="button3"/>
+                                <state key="focused" backgroundImage="button3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -86,12 +90,14 @@
                                     <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zxZ-Xo-Lt3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJf-NM-rQq">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJf-NM-rQq">
                                 <rect key="frame" x="133" y="232.5" width="109" height="185"/>
-                                <color key="backgroundColor" red="0.74468424706614034" green="1" blue="0.91921813978800393" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 5" label="drum5"/>
-                                <color key="tintColor" red="1" green="0.57941995394294643" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" backgroundImage="button3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" backgroundImage="button1"/>
+                                <state key="selected" backgroundImage="button3"/>
+                                <state key="highlighted" backgroundImage="button3"/>
+                                <state key="focused" backgroundImage="button3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -102,12 +108,13 @@
                                     <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yy6-qv-M1y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-Ac-rS7">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-Ac-rS7">
                                 <rect key="frame" x="250" y="232.5" width="109" height="185"/>
-                                <color key="backgroundColor" red="0.74468424706614034" green="1" blue="0.91921813978800393" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 6 (middle right)" label="drum 6"/>
-                                <color key="tintColor" red="1" green="0.055564177690000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="button3"/>
+                                <state key="normal" backgroundImage="button4"/>
+                                <state key="selected" backgroundImage="button3"/>
+                                <state key="highlighted" backgroundImage="button3"/>
+                                <state key="focused" backgroundImage="button3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -118,38 +125,38 @@
                                     <action selector="didTapDrumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Chg-Xa-fea"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drum Kit Type" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zby-pi-ZNt">
-                                <rect key="frame" x="16" y="618" width="209" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drum Kit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zby-pi-ZNt">
+                                <rect key="frame" x="16" y="618" width="155" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="gbQ-Oj-SY9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <color key="textColor" red="0.59383222209999997" green="0.82917776949999999" blue="0.96621346470000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nym-su-vjf">
-                                <rect key="frame" x="238" y="619" width="121" height="29"/>
+                                <rect key="frame" x="184" y="619" width="175" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="121" id="kqg-Pn-pqi"/>
+                                    <constraint firstAttribute="width" constant="175" id="kqg-Pn-pqi"/>
                                     <constraint firstAttribute="height" constant="28" id="qsA-q4-r07"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="1"/>
-                                    <segment title="2"/>
+                                    <segment title="Acoustic"/>
+                                    <segment title="Electronic"/>
                                 </segments>
-                                <color key="tintColor" red="0.59383222206113317" green="0.82917776947218003" blue="0.96621346473693848" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <action selector="segmentedControlDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="88E-gr-WiI"/>
                                 </connections>
                             </segmentedControl>
-                            <button opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unp-Yc-bmB">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unp-Yc-bmB">
                                 <rect key="frame" x="16" y="425.5" width="343" height="184.5"/>
-                                <color key="backgroundColor" red="0.46915927140000002" green="0.45113267959999998" blue="1" alpha="0.80825293620000005" colorSpace="custom" customColorSpace="displayP3"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for the snare drum" label="snare"/>
-                                <color key="tintColor" red="0.0056690549099999996" green="1" blue="0.275841371" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" backgroundImage="button2">
-                                    <color key="titleShadowColor" red="0.74468424710000003" green="1" blue="0.9192181398" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" backgroundImage="button3"/>
+                                <state key="selected" backgroundImage="button2"/>
+                                <state key="highlighted" backgroundImage="button2"/>
+                                <state key="focused" backgroundImage="button2"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -161,7 +168,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.015163754239388507" green="0.27581040641789889" blue="0.35630859375000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0815567746758461" green="0.097560398280620575" blue="0.36775451898574829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="E2e-AX-8SP" secondAttribute="trailing" id="0N4-kM-K0X"/>
                             <constraint firstItem="E2e-AX-8SP" firstAttribute="width" secondItem="v2e-4i-zxK" secondAttribute="width" id="12J-pH-0xV"/>
@@ -205,8 +212,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="button1" width="606" height="586"/>
+        <image name="button1" width="542" height="552"/>
         <image name="button2" width="167" height="167"/>
-        <image name="button3" width="606" height="586"/>
+        <image name="button3" width="542" height="552"/>
+        <image name="button4" width="542" height="552"/>
     </resources>
 </document>

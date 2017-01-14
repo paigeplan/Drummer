@@ -68,7 +68,6 @@ To refresh your memory , you can create constraints in Storyboard by first click
 
 ![alt text](/README-images/endProduct.png)
 
-
 You are free to customize your UI however you'd like, as long as the constraint requirements listed above are satisfied.
 
 **If you're stuck at this step and want a more detailed walkthrough, you can find a step-by-step guide of adding constraints for this lab [here][id].**
@@ -90,7 +89,6 @@ Since we wan't our drum pad buttons to play an audio clip when pressed, we'll wa
 To do this, **highlight all 7 buttons in your Storyboard, then Control + Drag from them into `DrummerViewController.swift`. The Connection should be an *Action*, the sender type should be set to *UIButton*, and the function name should be set to "drumButtonWasPressed"** (see image below).
 
 ![alt text](/README-images/part4-2.png)
-
 
 To check that all your buttons were successfully connected to the IBAction, hover over the small circle next to "drumButtonWasPressed" in DrummerViewController.swift. All 7 buttons should appear highlighted in your Storyboard. If they aren't all highlighted, **click the small icon next to your IBAction "drumButtonWasPressed", and drag from it to each unhighlighted button to connect them** (see image below).
 
@@ -116,14 +114,12 @@ This line of code calls the method "playDrumSound" for the currently selected dr
 
 Right now, we can't switch between drum kits (tapping on the segmented control doesn't change anything). To fix this **create an IBAction in DrummerViewController.swift for the Segmented Control in the same way as done in Part 4a. Set the sender type to UISegmentedControl** You can name the method whatever you like, but we'll call it "drumKitWasChanged".
 
-Note: If you a error saying "“Could not find any information for class named DrummerViewController", you can manually type in the IBAction method in `DrummerViewController.swift`, then Click + drag from the action to the Segmented Control in your storyboard (copy and paste the code below for "drumKitWasChanged", then make the connection).
+Note: If you an error saying "Could not find any information for class named DrummerViewController," you can manually type in the IBAction method in `DrummerViewController.swift`, then Click + drag from the action to the Segmented Control in your storyboard (copy and paste the code below for "drumKitWasChanged", then make the connection).
 
 
 You should now have the following method in `DrummerViewController.swift`: 
 
-    @IBAction func drumKitWasChanged(_ sender: UISegmentedControl) {
-    
-    }
+    @IBAction func drumKitWasChanged(_ sender: UISegmentedControl) { }
 
 **Fill in this method to allow the user to switch between drum kits by updating the "currentDrumKit" variable.** Hint: you'll want to use your UISegmentedControl property "selectedSegmentIndex", which you can access using "sender.selectedSegmentIndex"
 
@@ -131,13 +127,13 @@ If you implemented the method correctly, tapping on the Segmented Control in you
 
 ## Grading ##
 
-You have the option to either be checked off by a TA or instructor during lab to recieve your grade immediately, or submit your files to [Gradescope][id] to be graded later.
+You have the option to either be checked off by a TA or instructor during lab to receive your grade immediately, or submit your files to [Gradescope][id] to be graded later.
 
 [id]: https://gradescope.com/courses/5482/assignments/18748/ "Gradescope link"
 
 If you are submitting via Gradescope, you will need to submit a zip folder of all of your project files (compress and submit the folder you cloned from GitHub).
 
-We will grade your work based off the following criteria (all requirements must be satisfied to recieve credit)
+We will grade your work based off the following criteria (all requirements must be satisfied to receive credit)
 
 1. All buttons and UI elements must dynamically change as shown in the preview gif for any device size and orientation (use the image in part 3 as a guide for how your app should look).
 2. Tapping on a drum button must play a sound (your app needs to work!)

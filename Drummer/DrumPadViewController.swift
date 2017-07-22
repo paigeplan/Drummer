@@ -32,8 +32,6 @@ class DrumPadViewController: UIViewController {
     @IBAction func segmentedControlDidChange(_ sender: UISegmentedControl) {
         drummer.setDrumKitID(toValue: sender.selectedSegmentIndex)
     }
-    
-
 }
 
 extension UIImage {

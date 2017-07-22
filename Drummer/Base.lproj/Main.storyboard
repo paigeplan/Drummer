@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2e-4i-zxK">
-                                <rect key="frame" x="20" y="40" width="119" height="208"/>
+                                <rect key="frame" x="20" y="39.999999999999986" width="119.33333333333334" height="207.66666666666663"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 1 (top left corner)" label="drum1"/>
                                 <state key="normal" backgroundImage="button4"/>
                                 <state key="selected" backgroundImage="button4"/>
@@ -40,7 +40,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRo-gm-aqM">
-                                <rect key="frame" x="147" y="40" width="120" height="208"/>
+                                <rect key="frame" x="147.33333333333331" y="39.999999999999986" width="119.33333333333331" height="207.66666666666663"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 2" label="drum2"/>
                                 <state key="normal" backgroundImage="button1"/>
                                 <state key="selected" backgroundImage="button3"/>
@@ -57,7 +57,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2e-AX-8SP">
-                                <rect key="frame" x="275" y="40" width="119" height="208"/>
+                                <rect key="frame" x="274.66666666666674" y="39.999999999999986" width="119.33333333333331" height="207.66666666666663"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 3 (top right)" label="drum3"/>
                                 <state key="normal" backgroundImage="button2"/>
                                 <state key="selected" backgroundImage="button3"/>
@@ -74,7 +74,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4L-Re-V9g">
-                                <rect key="frame" x="20" y="256" width="119" height="207"/>
+                                <rect key="frame" x="20" y="255.66666666666669" width="119.33333333333334" height="207.66666666666669"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 4 (middle left)" label="drum4"/>
                                 <state key="normal" backgroundImage="button2"/>
                                 <state key="selected" backgroundImage="button3"/>
@@ -91,7 +91,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJf-NM-rQq">
-                                <rect key="frame" x="147" y="256" width="120" height="207"/>
+                                <rect key="frame" x="147.33333333333331" y="255.66666666666669" width="119.33333333333331" height="207.66666666666669"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 5" label="drum5"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" backgroundImage="button1"/>
@@ -109,7 +109,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-Ac-rS7">
-                                <rect key="frame" x="275" y="256" width="119" height="207"/>
+                                <rect key="frame" x="274.66666666666674" y="255.66666666666669" width="119.33333333333331" height="207.66666666666669"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for drum 6 (middle right)" label="drum 6"/>
                                 <state key="normal" backgroundImage="button4"/>
                                 <state key="selected" backgroundImage="button3"/>
@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drum Kit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zby-pi-ZNt">
-                                <rect key="frame" x="20" y="687" width="186" height="30"/>
+                                <rect key="frame" x="20" y="687" width="68.666666666666671" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="gbQ-Oj-SY9"/>
                                 </constraints>
@@ -135,9 +135,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nym-su-vjf">
-                                <rect key="frame" x="219" y="688" width="175" height="29"/>
+                                <rect key="frame" x="188.66666666666663" y="688" width="205.33333333333337" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="175" id="kqg-Pn-pqi"/>
                                     <constraint firstAttribute="height" constant="28" id="qsA-q4-r07"/>
                                 </constraints>
                                 <segments>
@@ -150,7 +149,7 @@
                                 </connections>
                             </segmentedControl>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unp-Yc-bmB">
-                                <rect key="frame" x="20" y="471" width="374" height="208"/>
+                                <rect key="frame" x="20" y="471.33333333333326" width="374" height="207.66666666666674"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays sound for the snare drum" label="snare"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" backgroundImage="button3"/>
@@ -188,7 +187,7 @@
                             <constraint firstItem="e4L-Re-V9g" firstAttribute="width" secondItem="v2e-4i-zxK" secondAttribute="width" id="KyC-YT-2Tf"/>
                             <constraint firstItem="dJf-NM-rQq" firstAttribute="top" secondItem="VRo-gm-aqM" secondAttribute="bottom" constant="8" symbolic="YES" id="Lq4-va-YK6"/>
                             <constraint firstAttribute="leadingMargin" secondItem="v2e-4i-zxK" secondAttribute="leading" id="LvR-6c-bA7"/>
-                            <constraint firstItem="nym-su-vjf" firstAttribute="leading" secondItem="zby-pi-ZNt" secondAttribute="trailing" constant="13" id="TDK-8u-MYP"/>
+                            <constraint firstItem="nym-su-vjf" firstAttribute="leading" secondItem="zby-pi-ZNt" secondAttribute="trailing" constant="100" id="TDK-8u-MYP"/>
                             <constraint firstItem="VRo-gm-aqM" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="UNp-lr-YF3"/>
                             <constraint firstItem="unp-Yc-bmB" firstAttribute="height" secondItem="v2e-4i-zxK" secondAttribute="height" id="Uy0-rI-1bl"/>
                             <constraint firstItem="E2e-AX-8SP" firstAttribute="leading" secondItem="VRo-gm-aqM" secondAttribute="trailing" constant="8" symbolic="YES" id="X7D-9B-T4l"/>
